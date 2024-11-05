@@ -2,7 +2,7 @@ name: withGitHUbHosted
 on: push
 jobs:
   my-job:
-    runs-on: ubuntu-latest
+    runs-on: sles15sp3
     steps:
       - name: First step
         run:  uname -a 
