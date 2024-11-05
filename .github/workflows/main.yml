@@ -9,5 +9,5 @@ jobs:
       - name: second  step
         run: date
       - name: Thhird step
-        run: sudo su
+        run: cat /etc/os-release
         
