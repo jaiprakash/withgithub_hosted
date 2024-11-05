@@ -5,3 +5,4 @@ jobs:
   steps:
      name: my first step
      run: uname -a
+          echo " -->"
