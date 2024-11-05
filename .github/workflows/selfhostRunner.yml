@@ -1,0 +1,7 @@
+name: Self Hosted runner
+on: push
+jobs:
+  run-on: sles15sp3
+  steps:
+     name: my first step
+     run: uname -a
