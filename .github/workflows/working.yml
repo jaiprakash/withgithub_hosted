@@ -9,4 +9,4 @@ jobs:
       - name: second  step
         run: date
       - name: Thhird step
-        run: echo "->"
+        run: echo "running on self hosted "
