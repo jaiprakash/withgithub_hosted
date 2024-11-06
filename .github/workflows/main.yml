@@ -4,6 +4,7 @@ jobs:
   my-job:
     runs-on: TestRunner
     steps:
+      - uses: actions/checkout@v3
       - name: First step
         run:  uname -a 
       - name: second  step
