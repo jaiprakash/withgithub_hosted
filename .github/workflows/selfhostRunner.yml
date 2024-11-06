@@ -1,7 +1,7 @@
 name: Self Hosted runner
 on: push
 jobs:
-  runs-on:TestRunner
+  runs-on: TestRunner
   steps:
      name: my first step
      run: uname -a
