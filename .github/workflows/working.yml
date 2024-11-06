@@ -2,7 +2,7 @@ name: workingOne
 on: push
 jobs:
   my-job:
-    runs-on: sles15sp3
+    runs-on: self-hosted
     steps:      
       - name: First step
         run:  uname -a 
